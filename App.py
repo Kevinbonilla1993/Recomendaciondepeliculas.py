@@ -284,11 +284,11 @@ if opcion == 'Cantidad de filmaciones por día':
 # Ejecutar la consulta 3
 if opcion == 'Rating de una pelicula':
     # Obtener el texto de entrada del usuario
-    pelicula = st.text_input('Ingresa el nombre de la pelicula:', '')
+    pelicula1 = st.text_input('Ingresa el nombre de la pelicula:', '')
 
     # Ejecutar la consulta cuando se presiona el botón
     if st.button('Buscar'):
-        resultado = funcion_seleccionada(pelicula)
+        resultado = funcion_seleccionada(pelicula1)
         st.write(resultado)
 
 # Ejecutar la consulta 4
