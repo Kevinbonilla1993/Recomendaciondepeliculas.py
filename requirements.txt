@@ -87,7 +87,6 @@ pytweening==1.0.7
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
 pywhatkit==5.4
-pywin32==306
 pyzmq==25.0.2
 regex==2023.6.3
 requests==2.29.0
