@@ -168,9 +168,9 @@ def score_titulo(titulo_de_la_filmación):
 
     if len(pelicula) > 0:
         # Obtener el título, año de estreno y score/popularidad
-        titulo = original1['titulo'].iloc[0]
-        año_estreno = original1['año_lanzamiento'].iloc[0]
-        score = original1['popularidad'].iloc[0]
+        titulo = pelicula['titulo'].iloc[0]
+        año_estreno = pelicula['año_lanzamiento'].iloc[0]
+        score = pelicula['popularidad'].iloc[0]
 
         return f"La película {titulo} fue estrenada en el año {año_estreno} con un score/popularidad de {score}"
     else:
@@ -185,12 +185,12 @@ def votos_titulo(titulo_de_lafilmación):
 
     if len(pelicula) > 0:
         # Obtener el título y la cantidad de votos
-        titulo = original1['titulo'].iloc[0]
-        votos = original1['conteo_votos'].iloc[0]
+        titulo = pelicula['titulo'].iloc[0]
+        votos = pelicula['conteo_votos'].iloc[0]
 
         if votos >= 2000:
             # Calcular la suma de votos
-            votos_totales = original1['conteo_votos'].sum()
+            votos_totales = pelicula['conteo_votos'].sum()
 
             # Calcular el promedio de votos
             promedio_votos = votos_totales / votos
