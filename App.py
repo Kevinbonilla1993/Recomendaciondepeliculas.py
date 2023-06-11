@@ -45,11 +45,8 @@ def recomendacion(pelicula):
     indices_similares = np.argpartition(similarity, -50)[-50:]
     similares = peliculas.iloc[indices_similares]
 
-    # Ordenar los elementos similares por popularidad de mayor a menor
-    similares_ordenados = similares.sort_values(by='popularidad', ascending=False)
-
     # Obtener los 5 elementos más populares
-    similares_populares = similares_ordenados.head(5)
+    similares_populares = similares.head(5)
 
     # Retrieve image URLs for recommended movies
     similares_populares["image_url"] = similares_populares["id"].apply(buscar_img)
@@ -59,8 +56,6 @@ def recomendacion(pelicula):
 
 lista_peliculas = pickle.load(open("movie_dict.pkl","rb"))
 peliculas = pd.DataFrame(lista_peliculas)
-
-similitudes = pickle.load(open("similarity.pkl", "rb"))
 
 original = pickle.load(open("original.pkl","rb"))
 original2 = pd.DataFrame(original)
