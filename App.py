@@ -178,10 +178,10 @@ def score_titulo(titulo_de_la_filmación):
 
 # Funcion #4
 
-def votos_titulo(titulo_de_la_filmación):
+def votos_titulo(titulo_de_lafilmación):
     # Filtrar el DataFrame por el título de la filmación
-    filtro = peliculas['titulo'] == titulo_de_la_filmación
-    pelicula = peliculas[filtro]
+    filtro = original1['titulo'] == titulo_de_lafilmación
+    pelicula = original1[filtro]
 
     if len(pelicula) > 0:
         # Obtener el título y la cantidad de votos
