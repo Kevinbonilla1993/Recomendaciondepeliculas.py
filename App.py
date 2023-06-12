@@ -8,9 +8,7 @@ import re
 import requests
 import json
 
-
-base="dark"
-
+#Funcion para eliminar numero y caracteres
 def eliminar_numeros_caracteres(texto):
     # Definir la expresión regular para eliminar números y caracteres especiales
     patron = r'[^a-zA-Z\s]'
@@ -20,6 +18,7 @@ def eliminar_numeros_caracteres(texto):
 
     return texto_procesado
 
+#Funcion para buscar imagenes en la API
 def buscar_img(movie_id):
     api_key = "a3409f83d17ab83dbed7e4622bf4dbf2"
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}&language=en-US"
@@ -31,27 +30,24 @@ def buscar_img(movie_id):
             poster_path = movie_data["poster_path"]
             image_url = f"https://image.tmdb.org/t/p/original/{poster_path}"
             return image_url
-def recomendacion(pelicula):
-    # Convertir la columna "popularidad" a tipo numérico
-    peliculas["popularidad"] = peliculas["popularidad"].astype(float)
 
-    vectores = TfidfVectorizer(ngram_range=(1, 2))
+#Funcion de recomendacion de peliculas
+def recomendacion(pelicula):
+
+    vectores = TfidfVectorizer(ngram_range=(1,2))
     tfidf = vectores.fit_transform(peliculas["etiquetas"])
-    title = eliminar_numeros_caracteres(pelicula)
-    query_vec = vectores.transform([title])
-    similarity = cosine_similarity(query_vec, tfidf).flatten()
+    titulo = eliminar_numeros_caracteres(pelicula)
+    vectores = vectores.transform([titulo])
+    similitudes = cosine_similarity(vectores, tfidf).flatten()
 
     # Obtener los 5 más similares
-    indices_similares = np.argpartition(similarity, -50)[-50:]
+    indices_similares = np.argpartition(similitudes, -5)[-5:]
     similares = peliculas.iloc[indices_similares]
 
-    # Obtener los 5 elementos más populares
-    similares_populares = similares.head(5)
-
     # Retrieve image URLs for recommended movies
-    similares_populares["image_url"] = similares_populares["id"].apply(buscar_img)
+    similares["image_url"] = similares["id"].apply(buscar_img)
 
-    return similares_populares[["titulo", "image_url"]].values
+    return similares[["titulo", "image_url"]].values
 
 
 lista_peliculas = pickle.load(open("movie_dict.pkl","rb"))
