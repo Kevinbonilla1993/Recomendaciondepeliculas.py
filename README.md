@@ -32,7 +32,7 @@ Además, puedes ver un video demostrativo del funcionamiento de la aplicación [
 
 ## Código fuente y colaboración
 
-El código fuente del proyecto está disponible en [Google Drive](URL_DEL_GOOGLE_DRIVE), donde puedes acceder y revisar el código utilizado en la aplicación.
+El código fuente del proyecto está disponible en [Google Drive](https://drive.google.com/drive/folders/1LuxN3N9PxZWIux8arnEBtEC0xDeBCmpi?usp=drive_link), donde puedes acceder y revisar el código utilizado en la aplicación.
 
 ¡Se alientan las contribuciones al proyecto! Si deseas contribuir, sigue estos pasos:
 
