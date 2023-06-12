@@ -25,7 +25,7 @@ Antes de desarrollar este proyecto, se realizó una limpieza de datos y transfor
 
 ### Uso y colaboración
 
-Este proyecto se comparte con fines educativos, con el objetivo de mostrar habilidades en el desarrollo de sistemas de recomendación y aplicaciones web interactivas. Si estás interesado en utilizar o contribuir a este proyecto, sigue las instrucciones de instalación y configuración que se detallan a continuación.
+Este proyecto se comparte con fines educativos, con el objetivo de mostrar habilidades en el desarrollo de sistemas de recomendación y aplicaciones web interactivas. Si estás interesado en utilizar, sigue las instrucciones de instalación y configuración que se detallan a continuación.
 
 ## Instalación
 
