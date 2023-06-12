@@ -23,25 +23,25 @@ La aplicación consta de dos componentes principales:
 
 Antes de desarrollar este proyecto, se realizó una limpieza de datos y transformaciones ETL (Extract, Transform, Load). Esto involucró varias tareas, como el renombramiento de columnas, la desanidación de columnas, el cambio de tipos de datos, la ordenación de fechas y la eliminación de columnas y filas irrelevantes. Los datos utilizados en el proyecto provienen de dos archivos CSV llamados "movies" y "credits", que se fusionaron utilizando la operación de merge para trabajar con ellos de manera conjunta. Además, se extrajeron datos adicionales de la API de la base de datos de películas para obtener enlaces de imágenes y poder mostrarlos adecuadamente en la interfaz.
 
-### Uso y colaboración
 
-Este proyecto se comparte con fines educativos, con el objetivo de mostrar habilidades en el desarrollo de sistemas de recomendación y aplicaciones web interactivas. Si estás interesado en utilizar, sigue las instrucciones de instalación y configuración que se detallan a continuación.
+### Uso
 
-## Instalación
+Puedes acceder a la aplicación en línea a través de este [enlace](https://kevinbonilla1993-recomendaciondepeliculas-py-app-8nlu23.streamlit.app/). La aplicación está alojada en Streamlit Share, lo que permite utilizarla sin necesidad de realizar ninguna instalación local.
 
-A continuación, se detallan los pasos para instalar y configurar el proyecto en tu entorno local:
+Además, puedes ver un video demostrativo del funcionamiento de la aplicación [aquí](URL_DEL_VIDEO).
 
-1. Clona el repositorio del proyecto:
+## Código fuente y colaboración
 
-   ```bash
-   git clone <https://github.com/Kevinbonilla1993/Recomendaciondepeliculas.py>
-   
-2. Instala las dependencias necesarias:
+El código fuente del proyecto está disponible en [Google Drive](URL_DEL_GOOGLE_DRIVE), donde puedes acceder y revisar el código utilizado en la aplicación.
 
-    pip install -r requirements.txt
+¡Se alientan las contribuciones al proyecto! Si deseas contribuir, sigue estos pasos:
 
-3. Ejecuta la aplicación:
+1. Haz un fork de este repositorio.
 
-    streamlit run app.py
+2. Crea una rama con un nombre descriptivo para tu contribución.
 
-4. Accede a la aplicación en tu navegador web utilizando la URL proporcionada.
+3. Realiza los cambios y mejoras deseadas.
+
+4. Envía una solicitud de extracción.
+
+
