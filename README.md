@@ -26,24 +26,16 @@ Antes de desarrollar este proyecto, se realizó una limpieza de datos y transfor
 
 ### Uso
 
-Puedes acceder a la aplicación en línea a través de este [enlace](https://kevinbonilla1993-recomendaciondepeliculas-py-app-8nlu23.streamlit.app/). La aplicación está alojada en Streamlit Share, lo que permite utilizarla sin necesidad de realizar ninguna instalación local.
+Puedes acceder a la aplicación en línea a través de este [App](https://kevinbonilla1993-recomendaciondepeliculas-py-app-8nlu23.streamlit.app/). La aplicación está alojada en Streamlit Share, lo que permite utilizarla sin necesidad de realizar ninguna instalación local.
 
-Además, puedes ver un video demostrativo del funcionamiento de la aplicación [aquí](URL_DEL_VIDEO).
+Además, puedes ver un video demostrativo del funcionamiento de la aplicación [Video]((https://vimeo.com/835727155?share=copy).
 
-Si deseas utilizar la API, puedes acceder a ella a través de [este enlace](https://api-consultas-czfj.onrender.com/docs#/), y el repositotio de la api [este enlace](https://github.com/Kevinbonilla1993/fastapi)
+Si deseas utilizar la API, puedes acceder a ella a través de [API](https://api-consultas-czfj.onrender.com/docs#/), y el repositotio de la api [Repositorio API](https://github.com/Kevinbonilla1993/fastapi)
 
-## Código fuente y colaboración
+## Código fuente
 
 El código fuente del proyecto está disponible en [Google Drive](https://drive.google.com/drive/folders/1LuxN3N9PxZWIux8arnEBtEC0xDeBCmpi?usp=drive_link), donde puedes acceder y revisar el código utilizado en la aplicación.
 
-¡Se alientan las contribuciones al proyecto! Si deseas contribuir, sigue estos pasos:
 
-1. Haz un fork de este repositorio.
-
-2. Crea una rama con un nombre descriptivo para tu contribución.
-
-3. Realiza los cambios y mejoras deseadas.
-
-4. Envía una solicitud de extracción.
 
 
