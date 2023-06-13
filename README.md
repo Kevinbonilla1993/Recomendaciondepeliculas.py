@@ -30,6 +30,8 @@ Puedes acceder a la aplicación en línea a través de este [enlace](https://kev
 
 Además, puedes ver un video demostrativo del funcionamiento de la aplicación [aquí](URL_DEL_VIDEO).
 
+Si deseas utilizar la API, puedes acceder a ella a través de [este enlace](URL_DE_LA_API).
+
 ## Código fuente y colaboración
 
 El código fuente del proyecto está disponible en [Google Drive](https://drive.google.com/drive/folders/1LuxN3N9PxZWIux8arnEBtEC0xDeBCmpi?usp=drive_link), donde puedes acceder y revisar el código utilizado en la aplicación.
