@@ -28,7 +28,7 @@ Antes de desarrollar este proyecto, se realizó una limpieza de datos y transfor
 
 Puedes acceder a la aplicación en línea a través de este [App](https://kevinbonilla1993-recomendaciondepeliculas-py-app-8nlu23.streamlit.app/). La aplicación está alojada en Streamlit Share, lo que permite utilizarla sin necesidad de realizar ninguna instalación local.
 
-Además, puedes ver un video demostrativo del funcionamiento de la aplicación [Video]((https://vimeo.com/835727155?share=copy).
+Además, puedes ver un video demostrativo del funcionamiento de la aplicación [Video](https://vimeo.com/835727155?share=copy).
 
 Si deseas utilizar la API, puedes acceder a ella a través de [API](https://api-consultas-czfj.onrender.com/docs#/), y el repositotio de la api [Repositorio API](https://github.com/Kevinbonilla1993/fastapi)
 
