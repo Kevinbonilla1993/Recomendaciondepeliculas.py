@@ -30,7 +30,7 @@ Puedes acceder a la aplicación en línea a través de este [enlace](https://kev
 
 Además, puedes ver un video demostrativo del funcionamiento de la aplicación [aquí](URL_DEL_VIDEO).
 
-Si deseas utilizar la API, puedes acceder a ella a través de [este enlace](URL_DE_LA_API).
+Si deseas utilizar la API, puedes acceder a ella a través de [este enlace](https://api-consultas-czfj.onrender.com/docs#/), y el repositotio de la api [este enlace](https://github.com/Kevinbonilla1993/fastapi)
 
 ## Código fuente y colaboración
 
